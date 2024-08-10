@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stakin Token</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Stakin Token</h1>
+    <div>
+        <label for="stakeAmount">Amount to Stake:</label>
+        <input type="number" id="stakeAmount" placeholder="Enter amount" />
+        <button id="stakeButton">Stake</button>
+    </div>
+    <div>
+        <button id="unstakeButton">Unstake</button>
+    </div>
+    <div>
+        <button id="checkStatusButton">Check Status</button>
+    </div>
+    <div>
+        <p>Staked Amount: <span id="stakedAmount">0</span> STK</p>
+        <p>Rewards Amount: <span id="rewardsAmount">0</span> STK</p>
+    </div>
+</body>
+</html>
